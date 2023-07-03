@@ -1,0 +1,22 @@
+{
+    "name": "carlo/bienes-raices",
+    "description": "Creando un proyecto con programación orientada a objetos",
+    "authors": [
+        {
+            "name": "Carlos",
+            "email": "carlosdovales@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controller"
+
+        }
+    }
+}
